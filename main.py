@@ -96,7 +96,7 @@ in_secret_word_correct_spot = []
 in_secret_word_somewhere = []
 not_in_secret_word = []
 
-words_list = read_dictionary("project4_dictionary.txt") # read dictionary list from file
+words_list = read_dictionary("dictionary.txt") # read dictionary list from file
 
 print("\nPlayer 1 UI:\n")
 secret_word = enter_and_check('secret', words_list) # GET secret word
