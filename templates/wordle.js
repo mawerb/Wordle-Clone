@@ -5,7 +5,7 @@ var row = 0; // current guess
 var col = 0; // attempt number
 
 var gameOver = false;
-var word = "SQUID";
+var word = "CHAIR";
 
 window.onload = function(){
     initalize();
